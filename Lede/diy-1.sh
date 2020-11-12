@@ -17,11 +17,11 @@ git clone https://github.com/jerrykuku/node-request.git package/lean/node-reques
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #京东签到
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lean/package  #passwall出国软件配套
-git clone https://github.com/MonwF/luci-app-filebrowser.git package/lean/luci-app-filebrowser
 
-git clone https://github.com/prcxu/luci-app-koolproxyR.git package/lean/luci-app-koolproxyR
 
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+
+
+
 
 
 rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
